@@ -1,6 +1,6 @@
 import store from "./redux/store";
 import * as actions from "./redux/actions";
-// console.log(store);
+console.log(store);
 // console.log("Hello World!");
 // console.log("object");
 store.dispatch(actions.addBug("NAME "));
